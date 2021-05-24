@@ -1,0 +1,21 @@
+{
+    "@defaults": {
+        "refreshFrequency": 40000,
+        "debug": false
+    },
+    "Youtube-widget-index-coffee": {
+        "@infos": "YouTube Channel Widget",
+        "position": {
+            "bottom": 90,
+            "left": 70
+        }
+    },
+    "github-notifications-widget-index-coffee": {
+        "@infos": "Github Notifications",
+        "@useCss": true,
+        "position": "BL|90|120",
+        "& .github-notifications": {
+            "backgroundColor": "rgba(0,0,0,0.9) !important"
+        }
+    }
+}
